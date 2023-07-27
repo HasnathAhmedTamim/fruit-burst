@@ -1,4 +1,3 @@
-
 body{
     padding: 1rem 15rem;
 }
@@ -169,11 +168,11 @@ footer{
         left : 20%;
     } 
     .header-text h1{
-        font-size: 2rem;
+        font-size: 1rem;
         
     }
     .header-text p{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         
     }
    .display{
