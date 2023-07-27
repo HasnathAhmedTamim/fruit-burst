@@ -1,0 +1,145 @@
+
+body{
+    padding: 1rem 3rem;
+}
+p{
+    color: #777;
+}
+.pd{
+    padding: 0rem 4rem;
+}
+.btn-circle{
+    background-color: #121212;
+    color: #FFF;
+    border: none !important;
+}
+.d-hidden{
+    display: none;
+}
+.m-hidden{
+    display: inline;
+}
+h1,h2{
+    
+    font-weight: 700 ;
+}
+nav{
+    border-radius: 600px;
+    background-color: #F85559 !important;
+}
+.md\:bg-inherit {
+    background-color: inherit;
+    border-radius: 600px;
+}
+.logo-pd{
+    padding: 2rem;
+}
+.logo-width{
+    width: 50%;
+}
+.header{
+    margin-top: 1rem;
+}
+
+.display{
+    position: relative;
+    margin-top: -10%;
+    /* background: white; */
+    padding: 0rem 5rem;
+    margin-bottom: 10%;
+}
+.bg-cover{
+    background : #FFF;
+    padding: 2rem;
+}
+
+.display p{
+    padding-left: 1rem;
+}
+.deal{
+    
+    margin-top: 4rem !important;
+}
+.deal h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.choosen h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.choosen h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    
+}
+hr{
+    height: 3px !important;
+    color: rgba(18, 18, 18, 0.80);
+    width: 30%;
+    margin-top: 0.5rem !important;
+  
+    background: rgba(18, 18, 18, 0.80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+
+@media (max-width: 767.98px) { 
+   .display{
+    display: none;
+   } 
+   .m-hidden{
+    display: none;
+   }
+   .d-hidden{
+    display: inline;
+   }
+   .md\:bg-inherit {
+    background-color: inherit;
+    border-radius: 0px;
+    }
+    .header{
+        position: relative;
+        z-index: -1;
+    }
+    .d-hidden hr{
+        text-align: center !important;
+        margin-left: 34%;
+        
+    }
+    .phone{
+        padding: 4rem;
+    }
+    .img-icon{
+        margin-left: 43%;
+    }
+    hr{
+
+    }
+ }
+
+ @media (max-width: 567.98px) { 
+    
+    .phone{
+        padding: 0;
+    }
+ }
