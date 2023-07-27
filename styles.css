@@ -218,10 +218,10 @@ footer{
  @media (max-width: 400.98px) { 
     .header-text{
         top: 1%;
-        left : 10%;
+        left : 16%;
     } 
     .header-text h1{
-        font-size: 1.4rem;
+        font-size: .8rem;
         
     }
     .header-text p{
@@ -229,7 +229,7 @@ footer{
         
     }
     .header-btn{
-        margin-top: -5%;
+        margin-top: -2%;
         font-size: 0.8rem;
         
     }
