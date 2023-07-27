@@ -27,6 +27,12 @@
       .font-lato {
         font-family: "Lato", sans-serif;
       }
+      a{
+        font-family: "Lato", sans-serif !important;
+      }
+      h1,h2,h3,h4,p,li,span{
+        font-family: "Lato", sans-serif !important;
+      }
     </style>
   </head>
   <body class="font-lato">
@@ -47,10 +53,10 @@
            
             <div
                 class="order-last flex flex-col items-end text-pink-200 space-y-3  md:flex-row md:items-start md:order-first md:space-y-0 md:space-x-3">
-                <a class="text-white" href="#">Home</a>
-                <a class="hover:text-white" href="#">About Us</a>
-                <a class="hover:text-white" href="#">Shop</a>
-                <a class="hover:text-white" href="#">All Fruits</a>
+                <a class="text-white" href="#" style='font-family: "Lato", sans-serif !important;'>Home</a>
+                <a class="hover:text-white" href="#" style='font-family: "Lato", sans-serif !important;'>About Us</a>
+                <a class="hover:text-white" href="#" style='font-family: "Lato", sans-serif !important;'>Shop</a>
+                <a class="hover:text-white" href="#" style='font-family: "Lato", sans-serif !important;'>All Fruits</a>
             </div>
             <!-- Logo -->
             <div class="logo-pd m-hidden">
@@ -78,7 +84,18 @@
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="images/banner1.png" class="w-full" />
+              
+              <div class="header-text">
+               <h1>Exotic tastes at your doorstep</h1>
+               <p>We supply highly quality organic products</p>
+               <br>
+               <button class="btn btn-error header-btn" style="color: #FFF;border-radius: 4px;">Shop Now</button>
+              </div>
+
+
+
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 pd">
+                
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
@@ -152,7 +169,7 @@
                 </div>
 
             <div class="text-right">
-                    <div class="grid grid-cols-8">
+                    <!-- <div class="grid grid-cols-8">
                         
                        <div>
                         &nbsp;
@@ -187,6 +204,32 @@
                              </div>
                           
                         
+                    </div> -->
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                      <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                          <span style="--value:15;"></span>
+                        </span>
+                        days
+                      </div> 
+                      <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                          <span style="--value:10;"></span>
+                        </span>
+                        hours
+                      </div> 
+                      <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                          <span style="--value:24;"></span>
+                        </span>
+                        min
+                      </div> 
+                      <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                          <span style="--value:47;"></span>
+                        </span>
+                        sec
+                      </div>
                     </div>
                     
             </div>
@@ -931,7 +974,7 @@
         <div
           class="hero container mx-auto"
           style="
-            background-image: url('../images/banner1.png');
+            background-image: url('images/banner1.png');
             background-repeat: no-repeat;
           "
         >

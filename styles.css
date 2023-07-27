@@ -1,12 +1,36 @@
 
 body{
-    padding: 1rem 3rem;
+    padding: 1rem 15rem;
 }
 p{
     color: #777;
 }
 .pd{
     padding: 0rem 4rem;
+}
+.hero h1,.hero h3,.hero p{
+    color: #FFF;
+    font-family: "Lato", sans-serif !important;
+
+}
+.header-text{
+   text-align: center;
+   position: absolute;
+   left: 15%;
+   top: 20%;
+   color: #FFF;
+
+}
+.header-text h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: "Lato", sans-serif !important;
+}
+.header-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Lato", sans-serif !important;
+    color: #FFF;
 }
 .btn-circle{
     background-color: #121212;
@@ -83,7 +107,10 @@ hr{
     background: rgba(18, 18, 18, 0.80);
 }
 
-
+footer{
+   position: absolute;
+   left: 0;
+}
 
 
 
@@ -101,9 +128,54 @@ hr{
 
 
 /* media */
+@media (max-width: 1200px) { 
+    body{
+        padding: 1rem 3rem;
+    }
+    .header-text h1{
+        font-size: 3.5rem;
+        
+    }
+    .header-text p{
+        font-size: 1.5rem;
+        
+    }
+
+    
+
+}
+@media (max-width: 900px) { 
+    body{
+        padding: 1rem 2rem;
+    }
+    .header-text{
+        left : 25%;
+    } 
+    .header-text h1{
+        font-size: 2rem;
+        
+    }
+    .header-text p{
+        font-size: 0.8rem;
+        
+    }
+
+}
 
 
-@media (max-width: 767.98px) { 
+
+@media (max-width: 767.98px) {
+    .header-text{
+        left : 20%;
+    } 
+    .header-text h1{
+        font-size: 2rem;
+        
+    }
+    .header-text p{
+        font-size: 0.8rem;
+        
+    }
    .display{
     display: none;
    } 
@@ -141,5 +213,27 @@ hr{
     
     .phone{
         padding: 0;
+    }
+ }
+ @media (max-width: 400.98px) { 
+    .header-text{
+        top: 1%;
+        left : 10%;
+    } 
+    .header-text h1{
+        font-size: 1.4rem;
+        
+    }
+    .header-text p{
+        font-size: 0.5rem;
+        
+    }
+    .header-btn{
+        margin-top: -5%;
+        font-size: 0.8rem;
+        
+    }
+    .pd{
+        padding: 0rem 0.1rem;
     }
  }
